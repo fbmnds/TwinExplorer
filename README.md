@@ -59,5 +59,10 @@ to install the
 extension for Visual Studio which enables some features
 used by this project.
 
+## Acknowledgement
+This extension was built following Mads Kristensen's awesome presentation at [Build 2016](https://channel9.msdn.com/events/Build/2016/B886).
+
+![Mads Kristensen](TwinExplorer/img/ack.png)
+
 ## License
 [Apache 2.0](LICENSE)

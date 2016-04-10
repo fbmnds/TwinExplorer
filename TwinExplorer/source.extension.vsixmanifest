@@ -5,7 +5,7 @@
     <DisplayName>TwinExplorer</DisplayName>
     <Description xml:space="preserve">TwinExplorer opens two Explorer windows side by side at the selected files location from the context menu of Solution Explorer. Twin Explorer kills previous instances of Explorer in order to avoid cluttering the desktop, if there are more than 5 Explorer instances already running.</Description>
     <MoreInfo>https://github.com/fbmnds/TwinExplorer</MoreInfo>
-    <License>Resource\LICENSE</License>
+    <License>Resources\LICENSE</License>
     <GettingStartedGuide>https://github.com/fbmnds/TwinExplorer/blob/master/README.md</GettingStartedGuide>
     <ReleaseNotes>https://github.com/fbmnds/TwinExplorer/blob/master/CHANGELOG.md</ReleaseNotes>
     <Icon>Resources\Icon.png</Icon>

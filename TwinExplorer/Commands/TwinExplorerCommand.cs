@@ -221,11 +221,15 @@ namespace TwinExplorer
 
         private void StartExplorer (string fileName)
         {
-            FileAttributes attr = File.GetAttributes(fileName);
-            if (attr.HasFlag(FileAttributes.Directory))
-                StartProcess("explorer.exe", "/n /e," + fileName);
-            else
-                StartProcess("explorer.exe", "/n /e," + Path.GetDirectoryName(fileName));
+            try
+            {
+                FileAttributes attr = File.GetAttributes(fileName);
+                if (attr.HasFlag(FileAttributes.Directory))
+                    StartProcess("explorer.exe", "/n /e," + fileName);
+                else
+                    StartProcess("explorer.exe", "/n /e," + Path.GetDirectoryName(fileName));
+            }
+            catch { StartProcess("explorer.exe", "/n /e," + Directory.GetCurrentDirectory()); }
         }
 
         private System.Diagnostics.Process StartProcess (string fileName, string arguments)

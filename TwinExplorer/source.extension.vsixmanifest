@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="7e7f1316-08bb-4871-851a-4fd82d9d4d32" Version="1.0" Language="en-US" Publisher="Friedrich Boeckh" />
+    <Identity Id="7e7f1316-08bb-4871-851a-4fd82d9d4d32" Version="1.1" Language="en-US" Publisher="Friedrich Boeckh" />
     <DisplayName>TwinExplorer</DisplayName>
     <Description xml:space="preserve">TwinExplorer opens two Explorer windows side by side at the selected files location from the context menu of Solution Explorer. Twin Explorer kills previous instances of Explorer in order to avoid cluttering the desktop, if there are more than 5 Explorer instances already running.</Description>
     <MoreInfo>https://github.com/fbmnds/TwinExplorer</MoreInfo>

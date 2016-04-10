@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Make TwinExplorer available in other context menus than for files in Solution Explorer.
+- [x] Make TwinExplorer available in other context menus than for files in Solution Explorer.
 
 Features that have a checkmark are complete and available for
 download in the
@@ -11,9 +11,13 @@ download in the
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
 
+## 1.1
+
+- [x] Fixe known issue, folder location can now also be opened.
+
 ## 1.0
 
-**2016-01-21**
+**2016-10-04**
 
 - [x] Initial release
 - [x] Open two Explorer windows side by side

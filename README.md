@@ -19,19 +19,19 @@ See the [changelog](CHANGELOG.md) for changes and roadmap.
 ## Features
 
 - Open two Explorer windows side by side
-  - Select two files, open Explorer at their locations
-  - Select one file, open Explorer twice at its location
+  - Select two files or folders, open Explorer at their locations
+  - Select one file or folder, open Explorer twice at its location
 - Kill previous Explorer instances, keeping at max. 5
 
-### Select two files, open Explorer at their locations
-Select two files in Solution Explorer and right-click.
+### Select two files or folders, open Explorer at their locations
+Select two files or folders in Solution Explorer and right-click.
 
 ![Context Menu Two Files](TwinExplorer/img/context-menu-two-files.png)
 
 Click the command 'Open Explorer side-by-side' in order to open Explorer
-twice at the locations of the two files.
+twice at the locations of the two files/folders.
 
-### Select one file, open Explorer twice at its location
+### Select one file or folder, open Explorer twice at its location
 Select one file in Solution Explorer and right-click. Click the command 'Open Explorer side-by-side' in order to open Explorer
 twice at the location of the single selected file.
 
@@ -40,14 +40,6 @@ In order to avoid cluttering the desktop with two many open Explorer windows,
 the tool kills previous Explorer windows, while keeping at most five instances.
 
 ![Explorer Instances](TwinExplorer/img/explorer-instances.png)
-
-### Known Issue
-The context menu is only provided for Solution Explorer. Sometimes,
-another context menu has a higher priority and will superseed TwinExplorer.
-
-For example, folders have their own context menu which superseeds TwinExplorer.
-
-![Known Issue Context Menu](TwinExplorer/img/known-issue-context-menu.png)
 
 ## Contribute
 Check out the [contribution guidelines](CONTRIBUTING.md)

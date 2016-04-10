@@ -71,7 +71,14 @@
       <Bitmap guid="guidImages" href="Resources\TwinExplorerCommand.png" usedList="bmpPic1"/>
     </Bitmaps>
   </Commands>
-
+  <CommandPlacements>
+    <CommandPlacement guid="guidTwinExplorerCommandPackageCmdSet" id="MyMenuGroup" priority="0x0300">
+      <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_FOLDERNODE"/>
+    </CommandPlacement>
+    <CommandPlacement guid="guidTwinExplorerCommandPackageCmdSet" id="MyMenuGroup" priority="0x0300">
+      <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_XPROJ_MULTIITEM"/>
+    </CommandPlacement>
+  </CommandPlacements>
   <Symbols>
     <!-- This is the package guid. -->
     <GuidSymbol name="guidTwinExplorerCommandPackage" value="{1c2becd7-3f39-4522-936b-dab1c85b7e81}" />

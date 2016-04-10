@@ -36,21 +36,15 @@ namespace TwinExplorer
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true)]
-    [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)] // Info on this package for Help/About
+    [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)] // Info on this package for Help/About
     [ProvideMenuResource("Menus.ctmenu", 1)]
-    [Guid(TwinExplorerCommandPackage.PackageGuidString)]
-    [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "pkgdef, VS and vsixmanifest are valid VS terms")]
-    public sealed class TwinExplorerCommandPackage : Package
+    [Guid(PackageGuids.guidTwinExplorerCommandPackageString)]
+    public sealed class VSPackage : Package
     {
-        /// <summary>
-        /// TwinExplorerCommandPackage GUID string.
-        /// </summary>
-        public const string PackageGuidString = "1c2becd7-3f39-4522-936b-dab1c85b7e81";
-
         /// <summary>
         /// Initializes a new instance of the <see cref="TwinExplorerCommand"/> class.
         /// </summary>
-        public TwinExplorerCommandPackage()
+        public VSPackage()
         {
             // Inside this method you can place any initialization code that does not require
             // any Visual Studio service because at this point the package object is created but
